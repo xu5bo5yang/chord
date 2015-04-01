@@ -1,0 +1,5 @@
+query: query.c
+	gcc -pedantic -Werror -Wall -std=gnu99 -o query query.c sha1.c sha1.h -lm
+
+clean:
+	rm *~
